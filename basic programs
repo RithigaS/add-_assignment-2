@@ -1,0 +1,187 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMMZGl7aEtp4YvTKguGwAi7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/RithigaS/add-_assignment-2/blob/main/basic%20programs\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        " a=5\n",
+        "if(a==5):\n",
+        "  print(\"yes\")\n",
+        "else:\n",
+        "  print(\"no\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-4l46sWkLujl",
+        "outputId": "0fb917df-d7c7-45d0-efcc-a2f50c81960c"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "yes\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=int(input(\"enter limit\"))\n",
+        "sum=0\n",
+        "for i in range(1,n):#if range(1,5)it get upto 4\n",
+        "  sum=i+sum\n",
+        "print(sum)"
+      ],
+      "metadata": {
+        "id": "vXxKR0iVNg5U"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#area of rectangle\n",
+        "length=int(input(\"enter the length of rectangle:\"))\n",
+        "breadth=int(input(\"enter the breadth of reactangle:\"))\n",
+        "area=length*breadth\n",
+        "print(\"area of rectangle:\",area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6xf3px3qSZi2",
+        "outputId": "1e8e6cbe-e27c-4263-f519-691a90acd1a5"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the length of rectangle:20\n",
+            "enter the breadth of reactangle:20\n",
+            "area of rectangle: 400\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#area of cube\n",
+        "a=int(input(\"enter the value of a:\"))\n",
+        "area=a*a*a\n",
+        "print(\"area of cube:\",area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zvm7a55aTnTv",
+        "outputId": "87ec31cd-bda0-405e-87c2-2efbb18c18b2"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the value of a:10\n",
+            "area of cube: 1000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#greater among three number\n",
+        "a=int(input(\"enter the value of a:\"))\n",
+        "b=int(input(\"enter the value of b:\"))\n",
+        "c=int(input(\"enter the value of c:\"))\n",
+        "if(a>b and a>c):\n",
+        "  print(\"the largest value is a:\",a)\n",
+        "elif(b>a and b>c):\n",
+        "  print(\"the largest value is b:\",b)\n",
+        "elif(c>a and c>b):\n",
+        "  print(\"the largest value is c:\",c)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XkIul74PUYmC",
+        "outputId": "5f5a1f7a-830f-4352-839f-5e0003105c34"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the value of a:20\n",
+            "enter the value of b:30\n",
+            "enter the value of c:45\n",
+            "the largest value is c: 45\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#factorial\n",
+        "a=int(input(\"enter the number:\"))\n",
+        "fact=1\n",
+        "for i in range(1,a):\n",
+        "     fact=fact*i\n",
+        "print(\"factorial of given number:\",fact)"
+      ],
+      "metadata": {
+        "id": "Qb_tNkt0V50I"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "f6oCRSyESZP8"
+      }
+    }
+  ]
+}
